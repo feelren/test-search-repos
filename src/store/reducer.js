@@ -93,14 +93,18 @@ export const getReposThunk = (searchText) => {
 	return (dispatch) => {
 		dispatch(toggleIsFetching());
 		api.getReposByText(searchText).then((data) => {
-			if (data.total_count) {
-				dispatch(toggleIsFetching());
-				dispatch(setNoResultsFalse());
-				dispatch(setRepos(data.items));
-			} else {
-				dispatch(toggleIsFetching());
-				dispatch(setNoResultsTrue());
-				dispatch(clearRepos());
+			try {
+				if (data.total_count) {
+					dispatch(toggleIsFetching());
+					dispatch(setNoResultsFalse());
+					dispatch(setRepos(data.items));
+				} else {
+					dispatch(toggleIsFetching());
+					dispatch(setNoResultsTrue());
+					dispatch(clearRepos());
+				}
+			} catch {
+				alert("Бан от GitHub :D");
 			}
 		});
 	};
