@@ -1,0 +1,16 @@
+.wrapper {
+  margin: 20px auto;
+  max-width: 50vw;
+  text-align: center;
+}
+.wrapper input {
+  width: 100%;
+  padding: 10px;
+  height: 50px;
+  font-size: 14px;
+  border: 2px solid #f2797c;
+  outline: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+}
