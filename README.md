@@ -1,3 +1,15 @@
+[ДЕМО](https://feelren.github.io/test-search-repos/)
+
+Тестовое задание на джуна:
+Реализовать "живой" поиск при вводе символов в инпут. Данные приложения хранятся в redux.
+Реализовано:
+1) Живой поиск (при каждом изменении инпута выдаются результаты поиска)
+2) Индикатор загрузки
+3) Индикатор того, что нет результатов
+
+Апи гитхаба может блочить ip за множественные\частые запросы. Проблема не решена.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
