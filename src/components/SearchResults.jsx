@@ -12,7 +12,7 @@ const SearchResults = () => {
 
     useEffect(() => {
         if (searchText) dispatch(getReposThunk(searchText));
-    }, [searchText])
+    }, [searchText, dispatch])
 
     return (
         <ul className={s.wrapper}>
