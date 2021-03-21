@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/test-search-repos/static/css/main.5141bdad.chunk.css",
-    "main.js": "/test-search-repos/static/js/main.873690dc.chunk.js",
-    "main.js.map": "/test-search-repos/static/js/main.873690dc.chunk.js.map",
+    "main.css": "/test-search-repos/static/css/main.455a5bd7.chunk.css",
+    "main.js": "/test-search-repos/static/js/main.48d9a39d.chunk.js",
+    "main.js.map": "/test-search-repos/static/js/main.48d9a39d.chunk.js.map",
     "runtime-main.js": "/test-search-repos/static/js/runtime-main.ec853f72.js",
     "runtime-main.js.map": "/test-search-repos/static/js/runtime-main.ec853f72.js.map",
     "static/js/2.b17aff65.chunk.js": "/test-search-repos/static/js/2.b17aff65.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.d211a428.chunk.js": "/test-search-repos/static/js/3.d211a428.chunk.js",
     "static/js/3.d211a428.chunk.js.map": "/test-search-repos/static/js/3.d211a428.chunk.js.map",
     "index.html": "/test-search-repos/index.html",
-    "static/css/main.5141bdad.chunk.css.map": "/test-search-repos/static/css/main.5141bdad.chunk.css.map",
+    "static/css/main.455a5bd7.chunk.css.map": "/test-search-repos/static/css/main.455a5bd7.chunk.css.map",
     "static/js/2.b17aff65.chunk.js.LICENSE.txt": "/test-search-repos/static/js/2.b17aff65.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ec853f72.js",
     "static/js/2.b17aff65.chunk.js",
-    "static/css/main.5141bdad.chunk.css",
-    "static/js/main.873690dc.chunk.js"
+    "static/css/main.455a5bd7.chunk.css",
+    "static/js/main.48d9a39d.chunk.js"
   ]
 }
